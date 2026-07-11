@@ -1,24 +1,25 @@
 # ⚡ Energy Retail Data Analysis
 
-![Python](https://img.shields.io/badge/Python-3.12-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-green)
-![NumPy](https://img.shields.io/badge/NumPy-Scientific_Computing-blueviolet)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626)
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-013243?style=for-the-badge&logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter)
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 This project was developed as part of the **Ahmet Çalık Foundation Advanced Data Analytics Training Program**.
 
-The objective of this case study is to analyze large-scale electricity billing and collection data using Python to discover consumption patterns, payment behaviors and business insights that can support operational decision-making.
+The study analyzes over **1.18 million electricity billing and collection records** using Python to identify electricity consumption patterns, customer behaviors, payment trends and operational insights.
 
 ---
 
-# 🎯 Objectives
+## 🎯 Project Objectives
 
 - Exploratory Data Analysis (EDA)
+- Data Cleaning
 - Data Visualization
 - Customer Segmentation
 - District-based Electricity Consumption Analysis
@@ -27,9 +28,9 @@ The objective of this case study is to analyze large-scale electricity billing a
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```
+```text
 Energy_Retail_Data_Analysis/
 │
 ├── notebooks/
@@ -47,9 +48,9 @@ Energy_Retail_Data_Analysis/
 
 ---
 
-# 📒 Notebooks
+## 📒 Notebooks
 
-## Notebook 01 — Exploratory Data Analysis
+### Notebook 01 — Exploratory Data Analysis
 
 - Data Loading
 - Data Cleaning
@@ -57,42 +58,39 @@ Energy_Retail_Data_Analysis/
 - Descriptive Statistics
 - Dataset Exploration
 
----
-
-## Notebook 02 — Data Visualization
+### Notebook 02 — Data Visualization
 
 - Electricity Consumption Distribution
 - District Comparison
 - Customer Classification
-- Collection Type Analysis
+- Collection Performance
 - Payment Period Analysis
 
----
-
-## Notebook 03 — Business Insights
+### Notebook 03 — Business Insights
 
 - Customer Segmentation
 - District Consumption Analysis
-- Collection Performance
-- Business Recommendations
+- Collection Performance Evaluation
 - Data Storytelling
+- Business Recommendations
 
 ---
 
-# 📊 Dataset Summary
+## 📊 Dataset Summary
 
-| Metric | Value |
-|---------|-------:|
+| Metric | Records |
+|---------|--------:|
 | Total Billing Records | **1,185,698** |
 | Total Collection Records | **636,993** |
 | Payment Timeline Records | **917,632** |
 
-> **Note:**  
-> The original dataset is **not included** in this repository because it exceeds GitHub's 100 MB file size limit and is subject to sharing restrictions.
+> **Note**
+>
+> The original dataset is **not included** in this repository because it exceeds GitHub's file size limit (100 MB) and is subject to sharing restrictions.
 
 ---
 
-# 🛠 Technologies
+## 🛠 Technologies
 
 - Python
 - Pandas
@@ -102,24 +100,31 @@ Energy_Retail_Data_Analysis/
 
 ---
 
-# 📈 Outputs
+## 📈 Sample Visualizations
 
-The project includes visualizations such as:
+### Customer Segmentation
 
-- Electricity Consumption Distribution
-- Customer Segmentation
-- District Consumption Comparison
-- Collection Performance
-- Payment Timeline Analysis
+![Customer Segmentation](outputs/figures/musteri_segmentleri.png)
 
 ---
 
-# 👨‍💻 Author
+### Electricity Consumption Distribution
+
+![Electricity Consumption](outputs/figures/kwh_histogram.png)
+
+---
+
+### Collection Performance
+
+![Collection Performance](outputs/figures/tahsilat_turleri_dagilimi.png)
+
+---
+
+## 👨‍💻 Author
 
 **Enes Doğan**
 
 Management Information Systems Graduate
 
-GitHub: https://github.com/enesdogann
-
-LinkedIn: https://www.linkedin.com/in/enesdogaan/
+- GitHub: https://github.com/enesdogann
+- LinkedIn: https://www.linkedin.com/in/enesdogaan/
