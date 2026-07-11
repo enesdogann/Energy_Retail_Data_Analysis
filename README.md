@@ -122,4 +122,4 @@ Management Information Systems Graduate
 
 GitHub: https://github.com/enesdogann
 
-LinkedIn: *(LinkedIn profil linkini ekleyebilirsin.)*
+LinkedIn: https://www.linkedin.com/in/enesdogaan/
